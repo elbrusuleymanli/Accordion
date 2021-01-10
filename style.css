@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+
+}
+
+
+ .center-table {
+  position: relative;
+  background-color:white;
+  width: 1000px;
+  height: 480px;
+  margin-top: 140px;
+  margin-left: 160px;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.left .photo1 img {
+
+    position: absolute;
+    bottom: 270px;
+    left: 200px;
+    z-index: 2;
+   
+}
+.left .center-table .photo2 img {
+    position: absolute;
+    bottom: 70px;
+    left: -80px;
+   
+}
+
+.center-table .right {
+    position: absolute;
+    top: 80px;
+    right: 170px;
+    
+}
+.center-table .right  h2{
+    margin-left: 45px;
+    font-weight: 700;
+}
+
+
+.center-table .right .schedule  li{
+
+    list-style: none;
+    border-bottom: 1px solid hsl(240, 5%, 91%);;
+    padding: 15px;
+    margin-right: -50px;
+    font-size: 17px;
+    
+}
+.center-table .right .schedule button {
+    
+    border: none;
+    display: block;
+    background: none;
+    transition: 0.4s;
+    outline: none;
+    font-weight: 600;
+    color: hsl(240, 6%, 50%);
+   
+}
+ .right .schedule li .fa-angle-down{
+    float: right;
+    margin-left: 80px;
+    color: #f38328;
+    
+   
+}
+.accordion{
+
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+   
+    
+    
+}
+.panel {
+    transition: 0.8s;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    font-weight: 300;
+    font-size: 13px;
+    color: hsl(240, 6%, 50%);
+    font-weight: 300;
+  }
+  .a.active .panel{
+    height: 40px;
+    visibility:visible;
+    opacity: 1;
+    
+  }
+ 
+  
